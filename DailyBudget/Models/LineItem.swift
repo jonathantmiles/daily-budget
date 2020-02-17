@@ -9,13 +9,15 @@
 import Foundation
 
 struct LineItem {
-    var category :CategoryTypes
+    var itemName: String
+    var category: CategoryTypes
     var amount: Double
+    let date = Date()
 }
 
 enum CategoryTypes: String {
-    case food
-    case groceries
-    case transportation
-    case discretionary
+    case food = "food"
+    case groceries = "groceries"
+    case transportation = "transportation"
+    case discretionary = "discretionary"
 }

@@ -13,8 +13,8 @@ class BudgetManager {
      
      TODO:
      
-     models for budget line items
-     enum for budget types
+     v models for budget line items
+     v enum for budget types
      CRUD for making new line items, updating them
      model for budget category totals
      array of line items? methods for reasigning lineItems to other arrays
