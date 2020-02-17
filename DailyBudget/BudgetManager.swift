@@ -11,6 +11,16 @@ import Foundation
 class BudgetManager {
     /*
      
+     TODO:
+     
+     models for budget line items
+     enum for budget types
+     CRUD for making new line items, updating them
+     model for budget category totals
+     array of line items? methods for reasigning lineItems to other arrays
+     
+     Should I make a type definition for money values? two decimal places; hard coded as USD or some other national currency
+     
      values for setting budget
      methods for reporting current budget
      would love an elastic set of tools for declaring new tags and expanding new "columns" to work with

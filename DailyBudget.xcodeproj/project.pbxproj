@@ -14,6 +14,7 @@
 		F809EDF823E9334400CAB47E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F809EDF723E9334400CAB47E /* Preview Assets.xcassets */; };
 		F809EDFB23E9334400CAB47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F809EDF923E9334400CAB47E /* LaunchScreen.storyboard */; };
 		F809EE0323E933B200CAB47E /* BudgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809EE0223E933B200CAB47E /* BudgetManager.swift */; };
+		F809EE0523EA750100CAB47E /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809EE0423EA750100CAB47E /* LineItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F809EDFA23E9334400CAB47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F809EDFC23E9334400CAB47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F809EE0223E933B200CAB47E /* BudgetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetManager.swift; sourceTree = "<group>"; };
+		F809EE0423EA750100CAB47E /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				F809EDF023E9334300CAB47E /* SceneDelegate.swift */,
 				F809EDF223E9334300CAB47E /* ContentView.swift */,
 				F809EDF423E9334400CAB47E /* Assets.xcassets */,
+				F809EE0423EA750100CAB47E /* LineItem.swift */,
 				F809EDF923E9334400CAB47E /* LaunchScreen.storyboard */,
 				F809EDFC23E9334400CAB47E /* Info.plist */,
 				F809EDF623E9334400CAB47E /* Preview Content */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F809EE0323E933B200CAB47E /* BudgetManager.swift in Sources */,
+				F809EE0523EA750100CAB47E /* LineItem.swift in Sources */,
 				F809EDEF23E9334300CAB47E /* AppDelegate.swift in Sources */,
 				F809EDF123E9334300CAB47E /* SceneDelegate.swift in Sources */,
 				F809EDF323E9334300CAB47E /* ContentView.swift in Sources */,
