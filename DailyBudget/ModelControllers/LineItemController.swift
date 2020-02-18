@@ -18,7 +18,7 @@ class LineItemController {
         sortLineItems()
     }
     
-    // CAUTION: this does not allow for changing teh date as written; beware overreliance on Date as a UUID
+    // CAUTION: this does not allow for changing the date as written; beware overreliance on Date as a UUID
     func updateLineItem(lineItem: LineItem, itemName: String?, category: CategoryTypes?, amount: Double?) {
         let index = lineItems.firstIndex { (target) -> Bool in
             return target.date == lineItem.date

@@ -9,6 +9,22 @@
 import Foundation
 
 class BudgetManager {
+    
+    func buildRemainingBudget(for category: CategoryTypes) -> Double {
+        
+        let categoryArray = assembleLineItems(for: category)
+        
+        categoryArray.map { (item) -> Double in
+            item.amount
+        }
+        
+        return 0.00
+    }
+    
+    func assembleLineItems(for category: CategoryTypes) -> [LineItem] {
+        
+        return [LineItem]()
+    }
     /*
      
      TODO:

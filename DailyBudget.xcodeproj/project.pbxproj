@@ -17,6 +17,7 @@
 		F809EE0523EA750100CAB47E /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809EE0423EA750100CAB47E /* LineItem.swift */; };
 		F809EE0823FB3C6700CAB47E /* BudgetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809EE0723FB3C6700CAB47E /* BudgetTarget.swift */; };
 		F809EE0B23FB3D9C00CAB47E /* LineItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809EE0A23FB3D9C00CAB47E /* LineItemController.swift */; };
+		F809EE0D23FB46F600CAB47E /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F809EE0C23FB46F600CAB47E /* TimerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F809EE0423EA750100CAB47E /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
 		F809EE0723FB3C6700CAB47E /* BudgetTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTarget.swift; sourceTree = "<group>"; };
 		F809EE0A23FB3D9C00CAB47E /* LineItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItemController.swift; sourceTree = "<group>"; };
+		F809EE0C23FB46F600CAB47E /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				F809EE0A23FB3D9C00CAB47E /* LineItemController.swift */,
+				F809EE0C23FB46F600CAB47E /* TimerController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				F809EDEF23E9334300CAB47E /* AppDelegate.swift in Sources */,
 				F809EE0B23FB3D9C00CAB47E /* LineItemController.swift in Sources */,
 				F809EDF123E9334300CAB47E /* SceneDelegate.swift in Sources */,
+				F809EE0D23FB46F600CAB47E /* TimerController.swift in Sources */,
 				F809EDF323E9334300CAB47E /* ContentView.swift in Sources */,
 				F809EE0823FB3C6700CAB47E /* BudgetTarget.swift in Sources */,
 			);
